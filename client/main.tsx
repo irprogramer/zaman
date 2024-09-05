@@ -1,9 +1,8 @@
 import React, { useRef, useState } from "react";
-import { Calendar, CalendarProvider, DatePicker } from "../src";
+import { Calendar, CalendarProvider, DatePicker, AdvancedDatePicker } from "../src";
 import { createRoot } from "react-dom/client";
 import "./style.css";
 import TimePicker from "../src/packages/TimePicker";
-import AdvancedDatePicker from "../src/packages/AdvancedDatePicker/AdvancedDatePicker";
 
 const container = document.getElementById("root");
 const root = createRoot(container as HTMLElement);

@@ -1,6 +1,6 @@
 {
   "name": "@iprg/zaman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component that helps you to makes simple Farsi/Jalali/Shamsi date picker. It also has range date picker you can select multiple days in multiple months.",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watchAll",
     "test:update": "NODE_ENV=test jest -- -u",
-    "build": "rm -rf dist && rollup -c --bundleConfigAsCjs",
+    "build": "rollup -c --bundleConfigAsCjs",
     "dev": "vite",
     "watch": "rollup -c rollup.config.js -w",
     "lint:fix": "eslint --fix src",
